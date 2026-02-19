@@ -11,7 +11,6 @@ returned as a list of integers representing its dimensions.
 
 def matrix_shape(matrix):
 
-
     """
     Returns the shape of the given matrix.
 
@@ -33,7 +32,6 @@ def matrix_shape(matrix):
         the function will return [2, 2] because
         the matrix has 2 rows and 2 columns.
     """
-
 
     shape = []
     while isinstance(matrix, list):
