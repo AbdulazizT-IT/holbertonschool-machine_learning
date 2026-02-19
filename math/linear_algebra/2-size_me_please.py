@@ -29,8 +29,8 @@ def matrix_shape(matrix):
         the matrix has 2 rows and 2 columns.
     """
     shape = []
-    while isinstance(matrix, list):  # Check if the current level is a list
-        shape.append(len(matrix))  # Add the length of the current list (number of rows or sublists)
-        matrix = matrix[0]  # Move to the first element (a sublist) for the next dimension
+    while isinstance(matrix, list):
+        shape.append(len(matrix))
+        matrix = matrix[0]
     return shape
 
