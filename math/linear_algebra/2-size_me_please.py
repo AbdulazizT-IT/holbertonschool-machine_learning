@@ -8,6 +8,7 @@ returned as a list of integers representing its dimensions.
 """
 
 def matrix_shape(matrix):
+
     """
     Returns the shape of the given matrix.
 
